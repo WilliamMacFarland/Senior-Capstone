@@ -1,0 +1,32 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+html,
+body {
+  height: 100%;
+  background-color: beige;
+}
+.GNRUGeneric {
+  font-weight: bold;
+  font-size: 250%;
+}
+.bodyContent {
+  position: relative;
+  text-align: center;
+  padding-bottom: 1%;
+}
+.bodyContent:before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle;
+}
+.formContent {
+  padding-bottom: 5%;
+  width: 600px;
+}
+.returnHomeButton {
+  margin-top: 1%;
+}
