@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>GNRU - Your Channels</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="yourChannels.css" />
+  </head>
+  <body>
+    <div class="mainPage"></div>
+    <script type="text/javascript" src="loadHeader.js"></script>
+    <div class="fortnite"></div>
+    <div class="callofduty"></div>
+    <script type="text/javascript" src="loadChannels.js"></script>
+    <script>
+      function mouseOver(e) {
+        const object = e.target;
+        object.style.minHeight = "230px";
+        object.style.minWidth = "280px";
+      }
+      function mouseLeave(e) {
+        const object = e.target;
+        object.style.minHeight = "200px";
+        object.style.minWidth = "250px";
+      }
+    </script>
+  </body>
+</html>
