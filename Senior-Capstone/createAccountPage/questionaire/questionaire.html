@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="questionaireStyles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="question-container" id="question"><p>Welcome to the GnRU community! Before you go any further we ask that you complete this questionaire. This questionaire is put in place to help find suggested friends through our website. We will not share any of your data or scores with any third parties. Please click on the start button to begin the quiz.</p></div>
+      <div class="option-container" id="slide"></div>
+      <div class="navigation">
+        <input class="next" type="button" id="nextBtn" onclick="buttonChange()" value="Start"></input>
+      </div>
+    </div>
+    <div id="totals">
+      <p>Total:<span id="total"></span></p>
+    </div>
+    <script type="text/javascript" src="questioniare.js"></script>
+  </body>
+</html>
